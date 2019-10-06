@@ -66,3 +66,20 @@ ul {
   padding-left: 10em;
   padding-right: 10em;
  }
+
+ a {
+   text-decoration: none;
+   color: white;
+ }
+
+ footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  background-color: #2e3033;
+  color: rgb(245, 83, 83);
+  text-align: center;
+}
