@@ -67,7 +67,7 @@ ul {
     transition: 1s;
   }
 
-  .cards{
+  /* .cards{
     width: 80em;
     background-color: #ffffff;
     border: 10px;
@@ -75,7 +75,7 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 0.8vw;
     margin: auto;
- }
+ } */
 
  .card-text {
   color: rgb(65, 65, 65);
@@ -98,4 +98,52 @@ ul {
   background-color: #2e3033;
   color: rgb(245, 83, 83);
   text-align: center;
+}
+
+.main {
+  margin-left: 175px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 1.5em  0 2.0em 1.5em;
+  display: inline-block;
+}
+
+section div.boxes{
+	float: left;
+  width: 300px;
+  text-align: center;
+	margin: 0 0.5em 2.0em 0.5em;
+	padding: 1.0em;
+}
+
+.button {
+  background-color: rgb(245, 83, 83);
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding: 13px 20px 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgb(184, 57, 57); 
+  transition: 0.4s; 
+}
+
+.poster-text {
+  font-family: 'Open Sans', sans-serif, 'Times New Roman', Times, serif;
+  color: rgb(65, 65, 65);
+  text-align: center;
+  margin: 0;
+}
+
+.poster {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-bottom: 20px;
 }
