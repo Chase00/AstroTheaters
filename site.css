@@ -67,15 +67,16 @@ ul {
     transition: 1s;
   }
 
-  /* .cards{
-    width: 80em;
-    background-color: #ffffff;
+ .cards{
+    width: 40em;
+    background-color: #f2f2f2;
     border: 10px;
-    margin-bottom: 60px;
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 0.8vw;
+    margin-bottom: 30px !important;
     margin: auto;
- } */
+ }
 
  .card-text {
   color: rgb(65, 65, 65);
