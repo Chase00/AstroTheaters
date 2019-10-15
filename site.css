@@ -89,7 +89,9 @@ ul {
  }
 
  footer {
-  position: fixed;
+  position: auto;
+  height: 50px;
+  padding-top: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
