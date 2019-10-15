@@ -171,3 +171,27 @@ input[type=text], [type=email], select, textarea {
   height: 500px;
   margin: 0 auto;
 }
+
+/* Review */
+
+dd.post-date {
+  float: right;
+  color: rgb(146, 146, 146);
+}
+
+dt.rev-name {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman', Times, serif;
+  color: #272727;
+}
+
+dd.review {
+  color: #464646;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+dt.rev-stars {
+  font-size: 20px;
+}
