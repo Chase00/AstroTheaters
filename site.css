@@ -7,10 +7,11 @@ body {
   background: url("assets/Theater.jpg");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: block;
+  background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
   height: 50%;
-  width: 100%;
+  width: 1000px;
 }
 .title-text {
   font-size: 3em;
@@ -36,6 +37,12 @@ body {
   color: rgb(245, 83, 83);
   font-family: 'Open Sans', sans-serif, 'Times New Roman', Times, serif;
   margin-top: 0;
+}
+
+.link {
+  color: rgb(245, 83, 83); 
+  text-decoration: underline;
+
 }
 
 ul {
@@ -297,4 +304,36 @@ b{
   text-align: left;
   background-color: rgb(245, 83, 83);
   color: white;
+}
+
+@media only screen and (max-width: 768px) { /* Phone */
+  nav {
+    width: auto;
+  }
+
+  .content-text {
+    top: 220px;
+  }
+
+  .main {
+    margin: auto;
+    display: inline-block;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: auto;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .cards{
+    width: auto;
+ }
+
+ .theater {
+  width: 100%;
+ }
 }
