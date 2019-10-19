@@ -106,7 +106,6 @@ ul {
  }
 
  footer {
-  position: auto;
   height: 50px;
   padding-top: 10px;
   left: 0;
@@ -127,7 +126,7 @@ ul {
   display: inline-block;
 }
 
-section div.boxes{
+div div.boxes{
 	float: left;
   width: 300px;
   text-align: center;
@@ -267,17 +266,14 @@ b{
     top: 4px;
     left: 4px;
     border-radius: 100%;
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 [type="radio"]:not(:checked) + label:after {
     opacity: 0;
-    -webkit-transform: scale(0);
     transform: scale(0);
 }
 [type="radio"]:checked + label:after {
     opacity: 1;
-    -webkit-transform: scale(1);
     transform: scale(1);
 }
 
